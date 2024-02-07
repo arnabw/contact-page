@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="icon" href="./images/favicon.ico" type="ico/icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="font-family: 'Be Vietnam Pro', sans-serif;">
+    <section class="container mx-auto"
+        style="background-image: url('./images/bg-image.svg'); background-repeat: no-repeat; background-size: cover;">
+        <article class="px-5 pt-4 pb-8">
+            <img src="./images/contact-form-icon.svg" alt="">
+            <div class="flex flex-col justify-center items-center my-5 lg:my-8">
+                <div class="text-white text-center space-y-3 lg:space-y-4">
+                    <h1 class="text-[32px] lg:text-[64px] leading-tight font-bold">Interested in our<br>business
+                        pricing?</h1>
+                    <p class="text-base lg:text-[32px] leading-tight font-medium">Fill out the form to view details and
+                        we’ll<br>contact you as
+                        soon as possible.
+                    </p>
+                </div>
+                <div class="backdrop-brightness-125 p-6 rounded-xl mt-10 lg:w-2/3">
+
+                    <form>
+                        <div class="grid gap-6 mb-6 grid-cols-1 md:grid-cols-2">
+                            <div class="col-span-2 md:col-span-1">
+                                <label class="block mb-2 text-sm font-medium text-[#F8FAFC]">Name</label>
+                                <input type="text" class="bg-[#F8FAFC] text-sm rounded-xl block w-full p-6 border-none"
+                                    placeholder="Ethan Johnson" required>
+                            </div>
+                            <div class="col-span-2 md:col-span-1">
+                                <label class="block mb-2 text-sm font-medium text-[#F8FAFC]">Company
+                                    Email</label>
+                                <input type="email" class="bg-[#F8FAFC] text-sm rounded-xl block w-full p-6 border-none"
+                                    placeholder="ethan@johnson.com" required>
+                            </div>
+                            <div class="col-span-2 md:col-span-1">
+
+                                <label class="block mb-2 text-sm font-medium text-[#F8FAFC]">Company
+                                    Size</label>
+                                <select
+                                    class="bg-[#F8FAFC] text-sm rounded-xl block w-full p-6 border-none font-semibold text-[#111729]">
+                                    <option>10-50 employees</option>
+                                    <option selected>50-100 employees</option>
+                                    <option>100-300 employees</option>
+                                    <option>300-1000 employees</option>
+                                    <option>1000-2000+ employees</option>
+                                </select>
+
+                            </div>
+                            <div class="col-span-2 md:col-span-1">
+
+                                <label class="block mb-2 text-sm font-medium text-[#F8FAFC]">Subject</label>
+                                <select
+                                    class="bg-[#F8FAFC] text-sm rounded-xl block w-full p-6 border-none font-semibold text-[#111729]">
+                                    <option selected>Building Landing pages</option>
+                                    <option>Strategic Page Construction</option>
+                                    <option>Effective Landing Design</option>
+                                    <option>Optimize User Experience</option>
+                                </select>
+
+                            </div>
+                            <div class="col-span-2">
+
+                                <label class="block mb-2 text-sm font-medium text-[#F8FAFC]">Subject</label>
+                                <textarea rows="9" class="block p-6 w-full text-sm bg-[#F8FAFC]  rounded-xl border-none"
+                                    placeholder="50-100 employees"></textarea>
+
+                            </div>
+                            <div class="col-span-2">
+                                <button type="button"
+                                    class="text-[#4036A9] bg-[#F8FAFC] border-none font-extrabold rounded-xl text-sm p-6  mb-2 w-full">Contact
+                                    Sales</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+
+</html>
